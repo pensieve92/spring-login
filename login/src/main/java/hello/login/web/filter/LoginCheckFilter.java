@@ -20,8 +20,8 @@ public class LoginCheckFilter implements Filter {
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         String requestURI = httpRequest.getRequestURI();
         StringBuffer requestURL = httpRequest.getRequestURL();
-        log.info("requestURI {} : ", requestURI);
-        log.info("requestURL {} : ", requestURL);
+//        log.info("requestURI {} : ", requestURI);
+//        log.info("requestURL {} : ", requestURL);
 
         HttpServletResponse httpResponse = (HttpServletResponse) response;
 
